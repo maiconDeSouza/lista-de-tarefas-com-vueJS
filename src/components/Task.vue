@@ -25,6 +25,7 @@ export default {
     .task{
         box-sizing: border-box;
         width: 350px;
+        max-width: 80vw;
         height: 150px;
         padding: 10px;
         border-radius: 8px;

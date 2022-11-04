@@ -35,7 +35,7 @@ export default {
     }
 
     input.form-element{
-        width: 500px;
+        width: 50vw;
         background: #fff2;
         border-top-left-radius: 8px;
         border-bottom-left-radius: 8px;
@@ -46,5 +46,11 @@ export default {
         border-bottom-right-radius: 8px;
         border-left: none;
         background-color: #2196f3;
+    }
+
+    @media (max-width: 576px){
+        input.form-element::placeholder{
+            font-size: 16px;
+        }
     }
 </style>
